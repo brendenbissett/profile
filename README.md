@@ -1,0 +1,1 @@
+This will be a ruby on rails project for my personal online profile / CV.
