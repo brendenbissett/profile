@@ -1,6 +1,11 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
+# Generate topics items
+Topic.create!(title: "Ruby")
+Topic.create!(title: "Personal")
+Topic.create!(title: "Agile")
+
 # Generate blog posts
 10.times do |blog|
 
@@ -36,3 +41,4 @@ end
 	)
 
 end
+

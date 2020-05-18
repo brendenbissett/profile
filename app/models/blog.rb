@@ -5,4 +5,7 @@ class Blog < ApplicationRecord
 
 	# Specify required fields
 	validates_presence_of :title, :body
+
+	# Configure foreign keys
+	belongs_to :topic
 end
